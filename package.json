@@ -1,0 +1,19 @@
+{
+  "name": "naked-ui-docs",
+  "version": "0.0.1",
+  "description": "Documentation for Naked UI",
+  "main": "index.js",
+  "authors": {
+    "name": "Aleksander Grygier",
+    "email": "alek@naked-ui.org"
+  },
+  "repository": "https://github.com/naked-ui/docs.git/naked-ui-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}

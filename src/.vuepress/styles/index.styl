@@ -138,12 +138,6 @@ body {
   overflow: hidden;
 }
 
-// .navbar .site-name {
-// 	font-size: 30px !important;
-// 	font-weight: 800 !important;
-// 	color: #000 !important;
-// 	letter-spacing: -0.1rem !important;
-// }
 .navbar {
   display: flex !important;
   align-items: center !important;
@@ -169,12 +163,6 @@ body {
 	height: 100vh !important;
 	flex-direction: column !important;
 	justify-content: center !important;
-}
-
-#main-title {
-	font-size: 6vw;
-	letter-spacing: -6px;
-	font-weight: 800;
 }
 
 .home .hero .description {
@@ -206,4 +194,30 @@ h3, h4, h5, h6 {
 
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.06rem;
+}
+
+@media all and (min-width: 981px) {
+
+  .logo {
+    height: 24px !important;
+  }
+
+  #main-title {
+    font-size: 6vw;
+    letter-spacing: -6px;
+    font-weight: 800;
+  }
+}
+
+@media all and (max-width: 980px) {
+
+  .logo {
+    height: 20px !important;
+  }
+
+  #main-title {
+    font-size: 56px;
+    letter-spacing: -2px;
+    font-weight: 800;
+  }
 }

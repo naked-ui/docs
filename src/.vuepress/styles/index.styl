@@ -138,11 +138,41 @@ body {
   overflow: hidden;
 }
 
-.navbar .site-name {
-	font-size: 30px !important;
-	font-weight: 800 !important;
-	color: #000 !important;
-	letter-spacing: -0.1rem !important;
+// .navbar .site-name {
+// 	font-size: 30px !important;
+// 	font-weight: 800 !important;
+// 	color: #000 !important;
+// 	letter-spacing: -0.1rem !important;
+// }
+.navbar {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between;
+}
+.home-link {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+}
+
+.site-name.can-hide {
+  display: none !important;
+}
+
+.logo {
+	height: 24px !important;
+}
+
+#main-title {
+	font-size: 6vw;
+	letter-spacing: -6px;
+	font-weight: 800;
+}
+
+.home .hero .description {
+	font-size: 32px !important;
+	letter-spacing: -1px !important;
+	margin: 32px auto 48px auto !important;
 }
 
 a.sidebar-link.active {
@@ -163,5 +193,5 @@ h3, h4, h5, h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  letter-spacing: -0.02rem;
+  letter-spacing: -0.06rem;
 }

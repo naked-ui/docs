@@ -2,8 +2,8 @@
 home: true
 # heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: Less is more
-actionText: Quick Start →
-actionLink: /guide/
+actionText: See Guide →
+actionLink: /guide/getting-started/introduction
 features:
 - title: Flexible naming
   details: Go with default class names for use your own

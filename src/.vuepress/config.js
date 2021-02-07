@@ -27,6 +27,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    logo: '/img/naked-ui-logo.svg',
     repo: 'naked-ui/naked-ui',
     editLinks: false,
     docsDir: '',

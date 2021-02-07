@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: Less is more
+tagline: Documentation & examples
 actionText: See Guide →
 actionLink: /guide/getting-started/introduction
 features:

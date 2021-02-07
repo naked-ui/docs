@@ -138,11 +138,33 @@ body {
   overflow: hidden;
 }
 
+h1, h2 {
+  font-weight: 700;
+}
+
+h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.06rem;
+}
+
 .navbar {
   display: flex !important;
   align-items: center !important;
   justify-content: space-between;
 }
+
+a.sidebar-link.active {
+  font-weight: 600 !important;
+}
+
+.sidebar-sub-headers a.sidebar-link.active,
+.sidebar-group.is-sub-group > .sidebar-heading:not(.clickable) {
+  font-weight: 700 !important;
+}
+
 .home-link {
   display: flex !important;
   align-items: center !important;
@@ -166,34 +188,14 @@ body {
 }
 
 .home .hero .description {
-	font-size: 32px !important;
-	letter-spacing: -1px !important;
-	margin: 32px auto 48px auto !important;
+  font-size: 36px !important;
+  letter-spacing: -2px;
+	margin: 32px auto 64px auto !important;
+  opacity: 1 !important;
 }
 
 .home .features {
   margin-top: 4.5rem !important
-}
-
-a.sidebar-link.active {
-  font-weight: 600 !important;
-}
-
-.sidebar-sub-headers a.sidebar-link.active,
-.sidebar-group.is-sub-group > .sidebar-heading:not(.clickable) {
-  font-weight: 700 !important;
-}
-
-h1, h2 {
-  font-weight: 700;
-}
-
-h3, h4, h5, h6 {
-  font-weight: 600;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  letter-spacing: -0.06rem;
 }
 
 @media all and (min-width: 981px) {
@@ -203,8 +205,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #main-title {
-    font-size: 6vw;
-    letter-spacing: -6px;
+    font-size: 132px !important;
+    letter-spacing: -9px;
     font-weight: 800;
   }
 }
@@ -215,9 +217,9 @@ h1, h2, h3, h4, h5, h6 {
     height: 20px !important;
   }
 
-  #main-title {
-    font-size: 56px;
-    letter-spacing: -2px;
+  #main-title{
+    font-size: 60px;
+    letter-spacing: -4px;
     font-weight: 800;
   }
 }

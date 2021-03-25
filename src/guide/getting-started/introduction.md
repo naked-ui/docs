@@ -23,3 +23,4 @@ All components are deisgned with CSS-first approach. **Anything that can be hand
 5. Accessible
 6. Small package size
 7. Optimized JS & CSS without any redundant code
+8. As little CSS as possible outside of Naked UI Components to style them
